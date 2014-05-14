@@ -1,0 +1,11 @@
+{
+  "name": "hotload",
+  "version": "0.0.2",
+  "description": "Hotloading for commonsJS modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dariusz Niemczyk",
+  "license": "ISC"
+}
