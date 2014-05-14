@@ -1,11 +1,24 @@
 {
-  "name": "hotload",
-  "version": "0.0.2",
-  "description": "Hotloading for commonsJS modules",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Dariusz Niemczyk",
-  "license": "ISC"
+    "name": "node-hotload",
+    "version": "0.0.1",
+    "description": "Hotloading for node's CommonJS modules.",
+    "main": "index.js",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Palid/node-hotload.git"
+    },
+    "keywords": [
+        "hotload",
+        "node-hotload",
+        "cache-busting"
+    ],
+    "author": "Dariusz Niemczyk",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Palid/node-hotload/issues"
+    },
+    "homepage": "https://github.com/Palid/node-hotload"
 }

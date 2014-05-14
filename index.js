@@ -13,6 +13,7 @@ var path = require('path'),
  * @return {module}         Returns cache-less version of module
  */
 function hotLoad(dirname, dir, options) {
+    if (!options) options = {};
     if (typeof options.cache === 'undefined') options.cache = 5000;
     if (!options.cache) options.cache = 0;
     var modulePath = path.resolve(dirname, dir),
